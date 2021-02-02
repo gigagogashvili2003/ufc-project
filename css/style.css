@@ -1761,7 +1761,65 @@
 }
 
 /* videos html */
-/* contacts html */
+.videos-first-section {
+    margin-bottom: 80px;
+}
+
+.videos-container {
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.videos-horizontal {
+    width: 100%;
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.videos-img1 {
+    margin-right: 50px;
+}
+
+.second-horizontal-margin-video {
+    margin: 0px 40px 0px 40px;
+}
+
+
+.mcgregor-margin {
+    margin-right: 40px;
+}
+
+.margin-conor {
+    margin-top: 75px;
+}
+
+.last-pictures-margin {
+    margin: 0px 20px 0px 20px;
+}
+
+.last-picture {
+    margin-right: 20px;
+}
+
+.pictures-html-title {
+    color: #191919;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: .075rem;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.pictures-hr {
+    background-color: black;
+    border: 1px solid black;
+    width: 300px;
+    margin-bottom: 40px;
+    margin-top: -25px;
+}
 
 
 

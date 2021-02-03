@@ -12,43 +12,7 @@
 .index-header {
     margin-bottom: 50px;
 }
-.poirier {
-    position: relative;
-    width: 100%;
 
-}
-
-.navigation {
-    font-size: 18px;
-    text-transform: uppercase;
-    height: 70px;
-    background-color: #000;
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    font-family: 'PT Sans Narrow', sans-serif;
-    position: relative;
-
-}
-
-.ufc-logo {
-    width: 100.62px;
-    height: 21px;
-    margin: 0px 150px 0px 150px;
-}
-
-.nav-ul {
-    display: flex;
-}
-
-.nav-li {
-    margin-left: 45px;
-}
-
-.nav-a {
-    color: #000;
-}
 /* section 0 */
 .section0 {
     margin-bottom: 80px;
@@ -407,7 +371,7 @@
 
 /* section third */
 .third-section {
-    margin-bottom: 500px;
+    margin-bottom: 80px;
 }
 
 .section3-container {
@@ -501,28 +465,6 @@
 /* section four */
 
 /* rankink html */
-.ranking-navigation {
-    font-size: 18px;
-    text-transform: uppercase;
-    height: 70px;
-    background-color: #000;
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    font-family: 'PT Sans Narrow', sans-serif;
-}
-
-.ranking-ul {
-    display: flex;
-}
-.ranking-li {
-    margin-left: 80px;
-}
-
-.ranking-nav-a {
-    color: #fff;
-}
 
 .rankings-title {
     color: #191919;
@@ -967,18 +909,6 @@
 
 /* athlets html */
 
-.athlets-navigation {
-    font-size: 18px;
-    text-transform: uppercase;
-    height: 70px;
-    background-color: #000;
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    font-family: 'PT Sans Narrow', sans-serif;
-    margin-bottom: 80px;
-}
 
 .athlets-footer {
     width: 100%;
@@ -1689,6 +1619,7 @@
     align-items: center;
     transition: background-color .5s ease-in-out;
     position: relative;
+    z-index: inherit;
 }
 
 .events-how-to-watch:hover {
@@ -1952,8 +1883,106 @@ button {
     margin-bottom: 40px;
 }
 
+
+.index-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    font-family: 'Poppins', sans-serif;
+    background: black;
+    margin-bottom: 80px;
+}
+
+.index-ul {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    
+}
+
+.index-ul a {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.burger {
+    display: none;
+}
+
+.burger div {
+   width: 25px;
+   height: 3px; 
+   background-color: white;
+   margin: 5px;
+   transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 1024px){
+    .index-ul {
+        width: 70%;
+    }
+}
+
+@media (max-width: 768px){
+    body {
+        overflow-x: hidden;
+    }
+    .index-ul {
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 10vh;
+        background: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translateX(100%);
+        transition: transform .5s ease-in-out;
+        z-index: 10;
+        
+    }
+    .index-ul li {
+        opacity: 0;
+    }
+    .burger {
+        display: block;
+        cursor: pointer;
+    }
+
+}
+
+.index-nav-active {
+   transform: translateX(0%); 
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+.toggle .line2{
+    opacity: 0;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
 .span-red {
     color: #d20a0a;
+}
+
+.nav-a {
+    color: white;
 }
 
 

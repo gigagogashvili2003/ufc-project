@@ -20,3 +20,20 @@ const slide = () => {
 }
 
 slide();
+
+
+function myHeart () {
+
+    document.getElementById('red-heart').addEventListener('click', function () {
+        document.getElementById('red-heart').style.color = "red";
+        let underHeart = document.createElement('p');
+        underHeart.setAttribute('class' , 'under-heart-title');
+        document.getElementById('heart-big-block').appendChild(underHeart);
+        underHeart.textContent = "Thank You For The Support ";
+    });
+}
+
+myHeart();
+
+
+

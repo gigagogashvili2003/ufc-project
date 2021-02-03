@@ -32,7 +32,6 @@ function myHeart () {
         underHeart.textContent = "Thank You For The Support ";
     });
 }
-
 myHeart();
 
 

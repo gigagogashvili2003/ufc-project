@@ -213,6 +213,9 @@
         width: 90px;
         
     }
+    
+    
+
 }
 
 @media (max-width: 930px){
@@ -228,6 +231,9 @@
     .events-how-to-watch {
         font-size: 10px;
         text-align: center;
+    }
+    .events-horizontal-line {
+        height: 200px;
     }
 }
 
@@ -266,6 +272,9 @@
         margin: 0 auto;
         width: 100%;
     }
+    .events-horizontal-line {
+        height: 160px;
+    }
 
 }
 
@@ -297,6 +306,10 @@
     .events-ufc-logo {
         width: 60px;
     }
+
+    .events-horizontal-line {
+        height: 140px;
+    }
 }
 
 @media (max-width: 1000px){
@@ -319,6 +332,9 @@
     .six-events {
         font-size: 15px;
         text-align: center;
+    }
+    .events-horizontal-line {
+        height: 100px;
     }
 }
 

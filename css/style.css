@@ -711,7 +711,8 @@
     position: relative;
 }
 .footer-container {
-    width: 1028px;
+    max-width: 1028px;
+    width: 100%;
     position: absolute;
     top: 50%;
     left: 50%;

@@ -108,3 +108,25 @@
         font-size: 12px;
     }
 }
+
+@media (max-width: 997px){
+    .ranking-first-container {
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+    .left-vertical-block {
+        margin: 0px;
+        padding: 0px;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 600px){
+    .rankings-title {
+        font-size: 30px;
+    }
+}

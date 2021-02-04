@@ -476,17 +476,20 @@
     margin-bottom: 100px;
 }
 
-.ranking-first-container {
-    width: 955px;
+.ranking-first-container,
+.ranking-second-container {
+    max-width: 955px;
+    width: 100%;
     display: flex;
     margin: 0 auto;
 }
 
+
 .left-vertical-block {
-    width: 220px;
+    max-width: 220px;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    /* background-color: lightblue; */
 }
 
 .second-vertical-block-margin {

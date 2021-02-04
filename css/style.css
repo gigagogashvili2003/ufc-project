@@ -884,18 +884,7 @@
 .athlets-body {
     background-color:#f2f2f2;
 }
-.athlets-container {
-    display: flex;
-    flex-direction: column;
-    width: 1205px;
-    height: 500px;
-    margin: 0 auto;
-}
-.athlets-horizontal-container {
-    width: 100%;
-    display: flex;
-    height: 290px;
-}
+
 
 .container,
 .container1,
@@ -1069,7 +1058,8 @@
 .athlets-biggest-container {
     display: flex;
     flex-direction: column;
-    width: 1205px;
+    max-width: 1205px;
+    width: 100%;
     margin: 0 auto;
 }
 

@@ -52,11 +52,11 @@
         margin-right: 20px;
     }
     .footer-zetta-hotels {
-        margin-right: 15px;
+        margin-left: 15px;
     }
 
     .footer-p {
-        margin-right: 15px;
+        margin-left: 15px;
     }
     .footer-copyright {
         margin-left: 15px;
@@ -154,6 +154,26 @@
     .the-front {
         display: none;
     }
+
+    .the-back {
+        transform: rotateY(0deg);
+        box-shadow: 0 10px 20px rgb(0 0 0 / 30%);
+    }
+
+    .container, 
+    .container1,
+    .container2,
+    .container3 {
+        margin: 0px;
+        padding: 0px;
+        margin-bottom: 15px;
+    }
+
+    .the-card {
+        background-color: #f2f2f2;
+    }
+
+
 }
 
 

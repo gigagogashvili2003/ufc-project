@@ -78,7 +78,7 @@
     align-items: center;
     justify-content: center;
     backface-visibility: hidden;
-    transform: rotateY(180deg);
+    transform: rotate(180deg);
 }
 
 .the-diamond-h2 {
@@ -841,8 +841,8 @@
     font-family: 'Poppins', sans-serif;
     color: #B1B1B1;
     position: absolute;
-    bottom: 10px;
-    left: 0px;
+    bottom: -30px;
+
 }
 
 .footer-marian {

@@ -213,4 +213,80 @@
     }
 }
 
+@media (max-width: 930px){
+    .alistair-vs-alexander-title1 {
+        font-size: 15px;
+    }
+    .alexander1-img {
+        width: 200px;
+    }
+    .datetime-title {
+        font-size: 13px;
+    }
+    .events-how-to-watch {
+        font-size: 10px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 800px){
+    .alistair-vs-alexander-title1 {
+        font-size: 13px;
+    }
+    .alexander1-img {
+        width: 150px;
+    }   
+    .datetime-title {
+        font-size: 11px;
+    }
+    .destination-title{
+        font-size: 11px;
+    }
+    .events-ufc-logo {
+        width: 80px;
+    }
+    .events-how-to-watch {
+        font-size: 10px;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 660px){
+    .alistair-vs-alexander-title1 {
+        font-size: 11px;
+    }
+    .alexander1-img {
+        width: 100px;
+    }   
+    .datetime-title {
+        font-size: 9px;
+    }
+
+    .destination-title {
+        font-size: 9px;
+    }
+    
+    .someone-vs-someone-imgs {
+        margin: 0px;
+    }
+    .events-titles {
+        margin-right: 15px;
+    }
+    .events-how-to-watch {
+        font-size: 8px;
+        text-align: center;
+    }
+    .events-ufc-logo {
+        width: 60px;
+    }
+}
+
+@media (max-width: 1000px){
+    .events-how-to-watch {
+        font-size: 10px;
+        text-align: center;
+    }
+}
+
 

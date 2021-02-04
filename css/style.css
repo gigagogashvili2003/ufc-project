@@ -1713,7 +1713,11 @@
 }
 .first-picture-pictures{
     max-width: 675px;
-    width: 100%;
+    with: 100%;
+}
+
+.videos-img1 {
+    margin-right: 50px;
 }
 
 

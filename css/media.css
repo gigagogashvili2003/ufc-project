@@ -3,10 +3,13 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        
     }
     
 
     .all-photos {
         width: 100%;
-    }
+        margin: 0px;
+        padding: 0;
+    }    
 }

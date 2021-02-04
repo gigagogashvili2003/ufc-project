@@ -29,4 +29,12 @@
         margin-bottom: 15px;
     }
 
+    .pictures-html-title {
+        font-size: 40px;
+    }
+
+    .pictures-hr {
+        width: 200px;
+    }
+
 }

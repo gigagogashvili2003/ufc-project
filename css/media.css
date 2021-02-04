@@ -1,0 +1,12 @@
+@media (max-width: 1400px){
+    .videos-horizontal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+
+    .all-photos {
+        width: 100%;
+    }
+}

@@ -1691,27 +1691,32 @@
     transition:  width 0.4s linear;
 }
 
-/* videos html */
+/* pictures html */
 .videos-first-section {
     margin-bottom: 80px;
 }
 
 .videos-container {
-    width: 1400px;
+    max-width: 1400px;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
 }
 
 .videos-horizontal {
+    max-width: 1400px;
     width: 100%;
     display: flex;
     margin-bottom: 25px;
+    
+}
+.first-picture-pictures{
+    max-width: 675px;
+    width: 100%;
 }
 
-.videos-img1 {
-    margin-right: 50px;
-}
+
 
 .second-horizontal-margin-video {
     margin: 0px 40px 0px 40px;

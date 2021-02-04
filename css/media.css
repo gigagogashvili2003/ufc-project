@@ -33,4 +33,8 @@
         display: none;
     }
 
+    .body {
+        overflow: hidden;
+    }
+
 }

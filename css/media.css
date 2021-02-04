@@ -141,11 +141,18 @@
 
 
 
+
+
 }
 
 @media (max-width: 600px){
     .rankings-title {
         font-size: 30px;
+    }
+}
+@media (max-width: 480px){
+    .the-front {
+        display: none;
     }
 }
 

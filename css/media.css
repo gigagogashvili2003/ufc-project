@@ -36,5 +36,8 @@
     .pictures-hr {
         width: 200px;
     }
+    body {
+        overflow-x: hidden;
+    }
 
 }

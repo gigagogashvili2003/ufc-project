@@ -28,4 +28,9 @@
         padding: 0px;
         margin-bottom: 15px;
     }
+
+    .index-ul {
+        display: none;
+    }
+
 }

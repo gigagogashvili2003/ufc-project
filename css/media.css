@@ -176,4 +176,41 @@
 
 }
 
+@media (max-width: 430px){
+    .first-name,
+    .last-name {
+    width: 130px;
+    }
+    .email {
+        width: 275px;
+    }
+
+    .phone-number,
+    .country {
+    width: 275px;
+    margin-top: 15px;
+    }
+    .form-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .gender-block {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .chance-title {
+        font-size: 18px;
+        text-align: center;
+    }
+    .signup-title {
+        font-size: 20px;
+    }
+    .gender-block {
+        width: 90px;
+        
+    }
+}
+
 

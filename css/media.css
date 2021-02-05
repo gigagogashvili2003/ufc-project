@@ -338,4 +338,158 @@
     }
 }
 
+@media (max-width: 700px){
+    .the-diamond-h2 {
+        font-size: 25px;
+    }
+    .under-diamond-poirier {
+        font-size: 45px;
+    }
+    .lightweight-champion {
+        font-size: 12px;
+    }
+    .view-gallery {
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 480px){
+    .the-diamond-h2 {
+        font-size: 20px;
+    }
+    .under-diamond-poirier {
+        font-size: 35px;
+    }
+    .lightweight-champion {
+        font-size: 10px;
+    }
+    .view-gallery {
+        margin-bottom: -100px;
+        
+    }   
+    .container-rotate-index {
+        height: 300px;
+        background: white;
+    }
+
+}
+
+@media (max-width: 1180px){
+    .section1-first-horizontal-line {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .conor-vs-poirier-block {
+        margin: 20px;
+
+    }
+    .dustin-photo2 {
+        margin: 10px;
+
+    }
+    .fight-coverage {
+        margin: 10px;
+        padding: 0;
+        text-align: center;
+    }
+    .press-conference-title {
+        margin: 10px;
+        text-align: center;
+        margin-left: 10px;
+    }
+    .conor-vs-poirier-result {
+        text-align: center;
+        margin: 10px;
+    }
+    .result2 {
+        margin: 10px;
+        text-align: center;
+        margin-left: 20px;
+    }
+    .michaels-container {
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+    }
+    .debut-title {
+        margin-top: 20px;    
+    } 
+
+}
+
+@media(max-width: 1280px){
+    .second-section-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section2-left-block {
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 500px){
+    .trending {
+        font-size: 35px;
+    }
+    .section1-first-horizontal-line a {
+        font-size: 14px;
+    }
+    .result2 {
+        font-size: 17px;
+    }
+    .press-conference-title {
+        font-size: 17px;
+    }
+    .michaels-container a{
+        font-size: 14px;
+    }
+    .debut-title {
+        font-size: 18px;
+    }
+    .knock-out {
+        font-size: 17px;
+    }
+    .index-news {
+        font-size: 35px;
+        text-align: center;
+    }
+    .section2-under-community {
+        font-size: 15px;
+    }
+    .section2-paragraph {
+        width: 250px;
+        font-size: 10px;
+    }
+
+    .section2-more {
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+    }
+    .section3-georgians {
+        font-size: 30px;
+        width: 250px;
+    }
+}
+
+@media (max-width: 910px){
+    .georgian-athletes-first-block,
+    .georgian-athletes-second-block,
+    .georgian-athletes-third-block {
+        flex-direction: column;
+    }
+    .liana-jojua-title {
+        display: none;
+    }
+    .merab-dvalishvili-title {
+        display: none;
+    }
+    .topuria-ilia-title {
+        display: none;
+    }
+}
+
+
 

@@ -1,120 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="About Fight">
-    <meta name="keywords" content="UFC, UFC257, Fight, Conor, Khabib, DustinPoirier">
-    <meta name="author" content="Giga Gogashvili">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="About Fight" />
+    <meta
+      name="keywords"
+      content="UFC, UFC257, Fight, Conor, Khabib, DustinPoirier"
+    />
+    <meta name="author" content="Giga Gogashvili" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>UFC 257 Contacts</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/media.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body>
     <!-- header -->
     <header class="index-header">
-        <nav class="index-nav">
-            <div class="logo">
-                <a href="index.html"><img src="images/UFC.svg" width="80px" alt="ufc-logo "></a>
-             </div>
-             <ul class="index-ul">
-                 <li><a href="events.html" target="_blank"class="nav-a">events</a></li>
-                 <li><a href="ranking.html" target="_blank"class="nav-a">ranking</a></li>
-                 <li><a href="athlets.html" target="_blank"class="nav-a">athlets</a></li>
-                 <li><a href="index.html#news"class="nav-a">news</a></li>
-                 <li><a href="pictures.html" target="_blank"class="nav-a">pictures</a></li>
-                 <li><a href="contact.html" class="span-red">contact</a></li>
-             </ul>
-             <div class="burger">
-                 <div class="line1"></div>
-                 <div class="line2"></div>
-                 <div class="line3"></div>
-             </div>
-        </nav>
+      <nav class="index-nav">
+        <div class="logo">
+          <a href="index.html"
+            ><img src="images/UFC.svg" width="80px" alt="ufc-logo "
+          /></a>
+        </div>
+        <ul class="index-ul">
+          <li>
+            <a href="events.html" target="_blank" class="nav-a">events</a>
+          </li>
+          <li>
+            <a href="ranking.html" target="_blank" class="nav-a">ranking</a>
+          </li>
+          <li>
+            <a href="athlets.html" target="_blank" class="nav-a">athlets</a>
+          </li>
+          <li><a href="index.html#news" class="nav-a">news</a></li>
+          <li>
+            <a href="pictures.html" target="_blank" class="nav-a">pictures</a>
+          </li>
+          <li><a href="contact.html" class="span-red">contact</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
     </header>
     <section class="contact-section">
-        <h1 class="contact-title">contact</h1>
-        <hr class="contact-hr">
-        <div class="contact-container">
-            <h2 class="signup-title">Sign Up for UFC Insider</h2>
-            <h2 class="chance-title">AND A CHANCE TO WIN!</h2>
-            <form>
-                <div class="form-container">
-                    <div class="fname-and-lname">
+      <h1 class="contact-title">contact</h1>
+      <hr class="contact-hr" />
+      <div class="contact-container">
+        <h2 class="signup-title">Sign Up for UFC Insider</h2>
+        <h2 class="chance-title">AND A CHANCE TO WIN!</h2>
+        <form id="contact-form">
+          <div class="form-container">
+            <div class="fname-and-lname">
+              <input
+                class="first-name"
+                type="text"
+                name="fname"
+                id="fname"
+                placeholder="First Name"
+              />
+              <div class="error-message" id="fname-error">
+                First Name is required.
+              </div>
 
-                        <input class="first-name" type="text" name="fname" id="fname" placeholder="First Name">
-        
-                        <input class="last-name" type="text" name="lname" id="lname" placeholder="Last Name">
-                    </div>
-                    <div class="phone-number-block">
-                        <input class="email" type="email" name="mail" id="mail" placeholder="Email">
-                        <input class="phone-number" type="number" name="pnumber" id="pnumber" placeholder="Phone Number">
-                        <input class="country" type="text" name="mycountry" id="mycountry" placeholder="Country">
-                    </div>
-                    <div class="gender-block">
-                        <input type="radio" id="male" name="gender" value="male">
-                        <label class="male-title" for="male">Male</label>
-                    </div>
-                    <div class="gender-block fenake">
-                        <input type="radio" id="female" name="gender" value="female">
-                        <label class="male-title" for="female">Female</label>
-                    </div>
-                    <div class="gender-block">
-                        <input type="radio" id="other" name="gender" value="other">
-                        <label class="male-title" for="other">Other</label>
-                    </div>
-                    <button class="button" type="submit">Submit</button>
-                </div>
-            </form>
+              <input
+                class="last-name"
+                type="text"
+                name="lname"
+                id="lname"
+                placeholder="Last Name"
+              />
+              <div class="error-message" id="lname-error">
+                Last Name is required.
+              </div>
+            </div>
+            <div class="phone-number-block">
+              <input
+                class="email"
+                type="email"
+                name="mail"
+                id="mail"
+                placeholder="Email"
+              />
+              <div class="error-message" id="email-error">
+                Valid Email is required.
+              </div>
 
-        </div>
+              <input
+                class="phone-number"
+                type="number"
+                name="pnumber"
+                id="pnumber"
+                placeholder="Phone Number"
+              />
+              <div class="error-message" id="pnumber-error">
+                Phone Number is required.
+              </div>
+
+              <input
+                class="country"
+                type="text"
+                name="mycountry"
+                id="mycountry"
+                placeholder="Country"
+              />
+              <div class="error-message" id="country-error">
+                Country is required.
+              </div>
+            </div>
+            <div class="gender-block">
+              <input type="radio" id="male" name="gender" value="male" />
+              <label class="male-title" for="male">Male</label>
+            </div>
+            <div class="gender-block fenake">
+              <input type="radio" id="female" name="gender" value="female" />
+              <label class="male-title" for="female">Female</label>
+            </div>
+            <div class="gender-block">
+              <input type="radio" id="other" name="gender" value="other" />
+              <label class="male-title" for="other">Other</label>
+            </div>
+            <button class="button" type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
     </section>
+
     <!-- footer -->
     <footer class="footer">
-        <div class="footer-container">
-            <div class="footer-left-block">
-                <h3 class="footer-zetta-hotels">UFC 257</h3>
-                <p class="footer-p">Ultimate Fighting Championship (UFC) champions are fighters who have won UFC championships.</p>
-            </div>
-            <div class="footer-left-block2">
-                <h3 class="footer-useful-links">Useful links</h3>
-                <a class="footer-left-block2-a" href="#">athletes</a>
-                <a class="footer-left-block2-a footer-margin-a" href="#">videos</a>
-                <a class="footer-left-block2-a footer-margin-a" href="#">contact</a>
-                <a class="footer-left-block2-a footer-margin-a" href="ranking.html">ranking</a>
-            </div>
-            <div class="footer-right-block-2">
-                <h3 class="footer-privacy">Privacy</h3>
-                <a class="footer-right-block2-a"  href="#">events</a>
-                <a class="footer-right-block2-a footer-margin-a" href="#">About Us</a>
-                <a class="footer-right-block2-a footer-margin-a" href="#">Contact </a>
-                <a class="footer-right-block2-a footer-margin-a" href="#">shop</a>
-            </div>
-            <div class="footer-right-block">
-                <h2 class="footer-contact-info">Contact Info</h2>
-                <div class="footer-right-block-horizontal1">
-                    <i class="far fa-envelope"></i>
-                    <a class="footer-mail" href="mailto:ufc257@gmail.com?cc=name2@rapidtables.com&bcc=name3@rapidtables.com
-                    &subject=The%20subject%20of%20the%20email
-                    &body=The%20body%20of%20the%20email">
-                    ufc257@gmail.com</a>
-                </div>
-                <div class="footer-right-block-horizontal2">
-                    <i class="fas fa-phone-alt"></i>
-                    <a class="footer-phoneto" href="tel:+0 320 422 4254">+0 320 422 4254</a>
-                </div>
-                <div class="footer-right-block-horizontal3">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <a class="footer-map-chicago" href="https://goo.gl/maps/5J7zDYb1ftJ4rfuP8" target="_blank">Main Str Abu Dhabi</a>
-                </div>
-            </div>
-            <h3 class="footer-copyright">Copyright © 2001-2021 UFC All Rights Reserved</h3>
-            <a class="footer-link" href="#">www.ufc.com</a>
+      <div class="footer-container">
+        <div class="footer-left-block">
+          <h3 class="footer-zetta-hotels">UFC 257</h3>
+          <p class="footer-p">
+            Ultimate Fighting Championship (UFC) champions are fighters who have
+            won UFC championships.
+          </p>
         </div>
-       
-        
+        <div class="footer-left-block2">
+          <h3 class="footer-useful-links">Useful links</h3>
+          <a class="footer-left-block2-a" href="#">athletes</a>
+          <a class="footer-left-block2-a footer-margin-a" href="#">videos</a>
+          <a class="footer-left-block2-a footer-margin-a" href="#">contact</a>
+          <a class="footer-left-block2-a footer-margin-a" href="ranking.html"
+            >ranking</a
+          >
+        </div>
+        <div class="footer-right-block-2">
+          <h3 class="footer-privacy">Privacy</h3>
+          <a class="footer-right-block2-a" href="#">events</a>
+          <a class="footer-right-block2-a footer-margin-a" href="#">About Us</a>
+          <a class="footer-right-block2-a footer-margin-a" href="#">Contact </a>
+          <a class="footer-right-block2-a footer-margin-a" href="#">shop</a>
+        </div>
+        <div class="footer-right-block">
+          <h2 class="footer-contact-info">Contact Info</h2>
+          <div class="footer-right-block-horizontal1">
+            <i class="far fa-envelope"></i>
+            <a
+              class="footer-mail"
+              href="mailto:ufc257@gmail.com?cc=name2@rapidtables.com&bcc=name3@rapidtables.com
+                    &subject=The%20subject%20of%20the%20email
+                    &body=The%20body%20of%20the%20email"
+            >
+              ufc257@gmail.com</a
+            >
+          </div>
+          <div class="footer-right-block-horizontal2">
+            <i class="fas fa-phone-alt"></i>
+            <a class="footer-phoneto" href="tel:+0 320 422 4254"
+              >+0 320 422 4254</a
+            >
+          </div>
+          <div class="footer-right-block-horizontal3">
+            <i class="fas fa-map-marker-alt"></i>
+            <a
+              class="footer-map-chicago"
+              href="https://goo.gl/maps/5J7zDYb1ftJ4rfuP8"
+              target="_blank"
+              >Main Str Abu Dhabi</a
+            >
+          </div>
+        </div>
+        <h3 class="footer-copyright">
+          Copyright © 2001-2021 UFC All Rights Reserved
+        </h3>
+        <a class="footer-link" href="#">www.ufc.com</a>
+      </div>
     </footer>
     <script src="js/script.js"></script>
-</body>
+  </body>
 </html>

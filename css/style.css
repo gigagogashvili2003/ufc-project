@@ -6,6 +6,67 @@ body {
   overflow-x: hidden;
 }
 
+.cookie-modal {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 350px;
+  z-index: 1000;
+  font-family: "Arial", sans-serif;
+}
+
+.cookie-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f00;
+  margin-bottom: 10px;
+}
+
+.cookie-message {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.cookie-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+header {
+  top: 0;
+  left: 0;
+  position: sticky;
+  z-index: 999;
+}
+
+.button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.button.accept {
+  background-color: #f00;
+  color: #fff;
+}
+
+.button.decline {
+  background-color: #999;
+  color: #000;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
 /* header */
 .index-header {
   margin-bottom: 50px;
@@ -1783,6 +1844,21 @@ button {
   color: #d20a0a;
 }
 
+.error-message {
+  display: none;
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+input:invalid {
+  border: 2px solid red;
+}
+
+input:valid {
+  border: 2px solid green;
+}
+
 .contact-title {
   color: #191919;
   font-size: 60px;
@@ -1791,6 +1867,10 @@ button {
   letter-spacing: 0.075rem;
   margin-bottom: 20px;
   text-align: center;
+}
+
+.red_heart {
+  color: red;
 }
 
 .contact-hr {
@@ -1809,6 +1889,8 @@ button {
   font-family: "Poppins", sans-serif;
   background: black;
   margin-bottom: 80px;
+
+  transition: all 0.3s;
 }
 
 .index-ul {

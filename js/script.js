@@ -12,17 +12,18 @@ async function dummyApiCall() {
   const data = await (
     await fetch("https://jsonplaceholder.typicode.com/todos/")
   ).json();
+
+  console.log(data);
 }
 
 function initListeners() {
   const cookie = document.getElementById("accept-cookies");
 
-  if (cookie) {
-    cookie.addEventListener("click", onCookieClick);
-  }
+  cookie?.addEventListener("click", onCookieClick);
 
-  const form = document.getElementById("contact-form");
-  form.addEventListener("submit", validateForm);
+  document
+    .getElementById("contact-form")
+    ?.addEventListener("submit", validateForm);
 
   document.addEventListener("scroll", onScroll);
 }
